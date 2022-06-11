@@ -79,6 +79,7 @@ function state1(){
   // }
   // Graph the overall potential volume, w/ a line at the threshold
   let v = map(volume, 0, 0.1, 0, 100);
+  console.log(v);
   if(v>10)  { endTime = time+4;}
     if(time>=endTime){ event = false;}
     else event = true; 
